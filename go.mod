@@ -15,6 +15,5 @@ require (
 	github.com/pkg/errors v0.9.1
 	github.com/spf13/cast v1.3.1
 	github.com/spf13/cobra v1.1.1
-	github.com/xinfinorg/XDPoSChain v1.5.5-0.20210111042105-e3fc1862aecf
 	golang.org/x/sync v0.0.0-20200625203802-6e8e738ad208
 )
