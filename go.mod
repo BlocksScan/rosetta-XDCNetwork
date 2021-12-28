@@ -3,6 +3,7 @@ module github.com/BlocksScan/rosetta-XDCNetwork
 go 1.12
 
 require (
+	github.com/XinFinOrg/XDPoSChain v1.4.4
 	github.com/boltdb/bolt v1.3.1 // indirect
 	github.com/coinbase/rosetta-sdk-go v0.6.7
 	github.com/containerd/continuity v0.0.0-20200710164510-efbc4488d8fe // indirect

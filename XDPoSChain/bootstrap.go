@@ -6,7 +6,7 @@ import (
 	RosettaTypes "github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/spf13/cast"
 	"github.com/BlocksScan/rosetta-XDCNetwork/common"
-	XDPoSChaincommon "github.com/xinfinorg/XDPoSChain/common"
+	XDPoSChaincommon "github.com/XinFinOrg/XDPoSChain/common"
 	"io/ioutil"
 	"math/big"
 	"strings"

@@ -8,17 +8,17 @@ import (
 	"fmt"
 	RosettaTypes "github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/spf13/cast"
-	"github.com/xinfinorg/XDPoSChain"
+	"github.com/XinFinOrg/XDPoSChain"
 	"github.com/BlocksScan/rosetta-XDCNetwork/common"
-	XDPoSChaincommon "github.com/xinfinorg/XDPoSChain/common"
-	"github.com/xinfinorg/XDPoSChain/common/hexutil"
-	"github.com/xinfinorg/XDPoSChain/consensus/posv"
-	XDPoSChaintypes "github.com/xinfinorg/XDPoSChain/core/types"
-	"github.com/xinfinorg/XDPoSChain/crypto"
-	"github.com/xinfinorg/XDPoSChain/eth"
-	"github.com/xinfinorg/XDPoSChain/p2p"
-	"github.com/xinfinorg/XDPoSChain/params"
-	"github.com/xinfinorg/XDPoSChain/rpc"
+	XDPoSChaincommon "github.com/XinFinOrg/XDPoSChain/common"
+	"github.com/XinFinOrg/XDPoSChain/common/hexutil"
+	"github.com/XinFinOrg/XDPoSChain/consensus/XDPoS"
+	XDPoSChaintypes "github.com/XinFinOrg/XDPoSChain/core/types"
+	"github.com/XinFinOrg/XDPoSChain/crypto"
+	"github.com/XinFinOrg/XDPoSChain/eth"
+	"github.com/XinFinOrg/XDPoSChain/p2p"
+	"github.com/XinFinOrg/XDPoSChain/params"
+	"github.com/XinFinOrg/XDPoSChain/rpc"
 	"golang.org/x/sync/semaphore"
 	"log"
 	"math/big"
@@ -1124,7 +1124,7 @@ func GetCoinbaseFromHeader(header *XDPoSChaintypes.Header) (XDPoSChaincommon.Add
 		return XDPoSChaincommon.Address{}, fmt.Errorf("extra-data %d byte suffix signature missing", common.ExtraSeal)
 	}
 	signature := header.Extra[len(header.Extra)-common.ExtraSeal:]
-	pubkey, err := crypto.Ecrecover(posv.SigHash(header).Bytes(), signature)
+	pubkey, err := crypto.Ecrecover(XDPoS.SigHash(header).Bytes(), signature)
 	if err != nil {
 		return XDPoSChaincommon.Address{}, err
 	}

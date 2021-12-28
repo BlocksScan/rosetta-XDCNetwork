@@ -4,7 +4,7 @@ package XDPoSChain
 
 import (
 	"fmt"
-	"github.com/xinfinorg/XDPoSChain/eth"
+	"github.com/XinFinOrg/XDPoSChain/eth"
 	"io/ioutil"
 )
 

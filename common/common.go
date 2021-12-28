@@ -4,8 +4,8 @@ package common
 
 import (
 	"github.com/coinbase/rosetta-sdk-go/types"
-	"github.com/xinfinorg/XDPoSChain/common"
-	"github.com/xinfinorg/XDPoSChain/common/hexutil"
+	"github.com/XinFinOrg/XDPoSChain/common"
+	"github.com/XinFinOrg/XDPoSChain/common/hexutil"
 )
 
 type TransactionType uint64

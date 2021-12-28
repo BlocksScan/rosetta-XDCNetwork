@@ -8,7 +8,7 @@ import (
 	"github.com/pkg/errors"
 	"github.com/spf13/cast"
 	"github.com/BlocksScan/rosetta-XDCNetwork/XDPoSChain"
-	"github.com/xinfinorg/XDPoSChain/params"
+	"github.com/XinFinOrg/XDPoSChain/params"
 	"math/big"
 	"os"
 	"strconv"

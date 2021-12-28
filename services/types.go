@@ -7,8 +7,8 @@ import (
 	"math/big"
 
 	RosettaTypes "github.com/coinbase/rosetta-sdk-go/types"
-	XDPoSChaincommon "github.com/xinfinorg/XDPoSChain/common"
-	"github.com/xinfinorg/XDPoSChain/common/hexutil"
+	XDPoSChaincommon "github.com/XinFinOrg/XDPoSChain/common"
+	"github.com/XinFinOrg/XDPoSChain/common/hexutil"
 )
 
 // Client is used by the servicers to get block

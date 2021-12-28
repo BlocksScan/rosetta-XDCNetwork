@@ -4,10 +4,10 @@ import (
 	"encoding/json"
 	"github.com/coinbase/rosetta-sdk-go/types"
 	"github.com/BlocksScan/rosetta-XDCNetwork/common"
-	XDPoSChaincommon "github.com/xinfinorg/XDPoSChain/common"
-	"github.com/xinfinorg/XDPoSChain/common/hexutil"
-	XDPoSChaintypes "github.com/xinfinorg/XDPoSChain/core/types"
-	"github.com/xinfinorg/XDPoSChain/params"
+	XDPoSChaincommon "github.com/XinFinOrg/XDPoSChain/common"
+	"github.com/XinFinOrg/XDPoSChain/common/hexutil"
+	XDPoSChaintypes "github.com/XinFinOrg/XDPoSChain/core/types"
+	"github.com/XinFinOrg/XDPoSChain/params"
 	"math/big"
 )
 

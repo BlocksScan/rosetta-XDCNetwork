@@ -9,7 +9,7 @@ import (
 	"github.com/BlocksScan/rosetta-XDCNetwork/common"
 	"github.com/BlocksScan/rosetta-XDCNetwork/configuration"
 	"github.com/BlocksScan/rosetta-XDCNetwork/XDPoSChain"
-	"github.com/xinfinorg/XDPoSChain/params"
+	"github.com/XinFinOrg/XDPoSChain/params"
 	"strconv"
 )
 

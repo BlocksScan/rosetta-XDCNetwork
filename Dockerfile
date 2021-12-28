@@ -25,7 +25,7 @@ FROM golang-builder as XDC-builder
 
 ARG XDPoSChain_CORE_VERSION="dev-upgrade"
 RUN rm -rf XDC-source
-RUN git clone --branch $XDPoSChain_CORE_VERSION https://github.com/xinfinorg/XDPoSChain.git XDC-source
+RUN git clone --branch $XDPoSChain_CORE_VERSION https://github.com/XinFinOrg/XDPoSChain.git XDC-source
 RUN cd XDC-source && \
 make clean && make XDC && chmod +x ./build/bin/XDC && \
 mv ./build/bin/XDC /app/XDC && \

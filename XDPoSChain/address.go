@@ -1,7 +1,7 @@
 package XDPoSChain
 
 import (
-	"github.com/xinfinorg/XDPoSChain/common"
+	"github.com/XinFinOrg/XDPoSChain/common"
 	"log"
 )
 
