@@ -1,2 +1,2 @@
-# XDC-rosetta-gateway
-XDPoSChain Implementation of Rosetta Blockchain Standard
+# rosetta XDC.Network
+XDC Network Implementation of Rosetta Blockchain Standard
