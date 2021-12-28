@@ -37,7 +37,7 @@ cd .. && rm -rf XDC-source
 FROM golang-builder as rosetta-builder
 
 # Use native remote build context to build in any directory
-ARG XDPoSChain_ROSETTA_GATEWAY_VERSION="master"
+ARG XDPoSChain_ROSETTA_GATEWAY_VERSION="main"
 RUN mkdir /app/XDPoSChain
 RUN cd /app
 RUN rm -rf XDC-rosetta-gateway-source
